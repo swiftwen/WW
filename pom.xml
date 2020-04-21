@@ -1,0 +1,28 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.wp.ww</groupId>
+  <artifactId>WW</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>pom</packaging>
+  <parent>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-parent</artifactId>
+		<version>2.1.1.RELEASE</version>
+	</parent>
+	<!-- 开发者 -->
+	<developers>
+		<developer>
+			<name>wenpeng</name>
+			<email>wenpeng0412@qq.com</email>
+		</developer>
+	</developers>
+  <modules>
+  	<module>Common-Rpc</module>
+  	<module>WebServer</module>
+  	<module>Account-Rpc</module>
+  	<module>ww-base</module>
+  	<module>account-rpc</module>
+  	<module>ww-common</module>
+  	<module>workflow-rpc</module>
+  </modules>
+</project>
